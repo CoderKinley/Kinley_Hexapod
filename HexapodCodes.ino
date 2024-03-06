@@ -16,6 +16,8 @@ float theta3 = -41.41 * PI / 180.0; // Convert degrees to radians
 float alpha1 = 90 * PI / 180.0; // Convert degrees to radians
 float alpha2 = 0 * PI / 180.0; // Convert degrees to radians
 float alpha3 = 0 * PI / 180.0; // Convert degrees to radians
+// code it today
+
 
 void setup() {
   Serial.begin(9600);
