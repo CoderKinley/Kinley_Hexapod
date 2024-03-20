@@ -28,6 +28,7 @@ void matrixMultiplication(float matrixA[4][4], float matrixB[4][4], float result
       result[i][j] = 0;
       for (int k = 0; k < 4; k++) {
         result[i][j] += matrixA[i][k] * matrixB[k][j];
+        Serial.println("hello");
       }
     }
   }
